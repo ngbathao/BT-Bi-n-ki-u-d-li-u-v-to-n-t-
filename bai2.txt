@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script>
+  var c = prompt('Nhap vao do C: ', ''); 
+  alert(c);
+  
+  var f = c*1.8 + 32;
+  document.write("Vay do f la = " + f);
+</script>
+
+
+</body>
+<head>
+  <meta charset="UTF-8">
+  <title>Hello</title>
+</head>
+</html>
+

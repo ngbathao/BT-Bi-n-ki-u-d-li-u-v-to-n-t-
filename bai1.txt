@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script>
+  var a = prompt("Nh?p di?m môn v?t lý:",'');
+  alert(a);
+  var b = prompt("Nh?p di?m môn hoá h?c",'');
+  alert(b);
+  var c = prompt("Nh?p di?m môn sinh h?c",'');
+  alert(c)
+  var d = a/3 + b/3 + c/3;
+  document.write("Ði?m trung bình môn= " + d);
+</script>
+
+
+</body>
+<head>
+  <meta charset="UTF-8">
+  <title>Ði?m trung bình môn </title>
+</head>
+</html>
+

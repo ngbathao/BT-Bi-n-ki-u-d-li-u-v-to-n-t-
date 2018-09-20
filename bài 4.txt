@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script>
+  var a = prompt("Nh?p giá tr? du?ng kinh hình tròn:",'');
+  alert(a);
+  document.write("V?y chu vi hình tròn = " ,a*3.14 );
+</script>
+
+
+</body>
+<head>
+  <meta charset="UTF-8">
+  <title>Tính Chu Vi Hình Tròn </title>
+</head>
+</html>

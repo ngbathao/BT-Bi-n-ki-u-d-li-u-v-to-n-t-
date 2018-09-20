@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hello</title>
+</head>
+<script>
+
+  function chuyenDoiTienTe() {
+    var tien = 0;
+    var tienChuyen = 0;
+    tien = document.getElementById('tien').value; 
+    // gio quy doi qa tien nao thi a x vs ti le do thoi a len goodle search coi vn qa trung quoc bn 
+  }
+</script>
+<body>
+<table border="0" style="width:100%; text-align: center;">
+  <tr>
+    <th>Amount</th>
+    <th>From Currency</th>
+    <th>To currency</th>
+    <th colspan="2"><button onClick="chuyenDoiTienTe()">  Convert</button> </th>
+  </tr>
+  <tr>
+    <td><input id="tien" type="text"/></td>
+    <td>
+      <select>
+      <option> China </option>
+      <option> Viet Nam</option>
+    </select>
+    </td>
+    <td>
+      <select>
+      <option> Viet Nam </option>
+      <option> China</option>
+    </select>
+    </td>
+  </tr>
+</table>
+</body>
+
+</html>
+
